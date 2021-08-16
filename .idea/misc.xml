@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AppetiserApp/app/src/main/res/drawable/lline.xml" value="0.22552083333333334" />
+        <entry key="..\:/AppetiserApp/app/src/main/res/drawable/shape.xml" value="0.22552083333333334" />
+        <entry key="..\:/AppetiserApp/app/src/main/res/drawable/shapes.xml" value="0.22552083333333334" />
+        <entry key="..\:/AppetiserApp/app/src/main/res/layout/activity_base.xml" value="0.209375" />
+        <entry key="..\:/AppetiserApp/app/src/main/res/layout/activity_calender.xml" value="0.209375" />
+        <entry key="..\:/AppetiserApp/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/AppetiserApp/app/src/main/res/layout/fragment_basee.xml" value="0.22" />
+        <entry key="..\:/AppetiserApp/app/src/main/res/layout/fragment_calenderr.xml" value="0.18" />
+        <entry key="..\:/AppetiserApp/app/src/main/res/layout/fragment_first.xml" value="0.209375" />
+        <entry key="..\:/AppetiserApp/app/src/main/res/menu/bottom.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

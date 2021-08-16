@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_baseline_shopping_bag_24"
+        android:id="@+id/first"
+        android:title="" />
+    <item
+
+        android:icon="@drawable/ic_outline_calendar_today_24"
+        android:id="@+id/calender"
+        app:showAsAction="withText"
+        android:title="" />
+    <item
+        android:icon="@drawable/ic_baseline_control_point_duplicate_24"
+        android:id="@+id/first1"
+        android:title="" />
+    <item
+        android:icon="@drawable/ic_baseline_panorama_fish_eye_24"
+        android:id="@+id/favoirte1"
+        android:title=""
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/profile1"
+        app:showAsAction="withText"
+        android:title="" />
+
+</menu>

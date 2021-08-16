@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/base">
+
+    <activity
+        android:id="@+id/base"
+        android:name="com.example.appetiserapp.base"
+        android:label="activity_base"
+        tools:layout="@layout/activity_base" />
+    <activity
+        android:id="@+id/calender2"
+        android:name="com.example.appetiserapp.calender"
+        android:label="activity_calender"
+        tools:layout="@layout/activity_calender" />
+</navigation>

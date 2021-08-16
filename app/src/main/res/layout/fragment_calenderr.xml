@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calenderr">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3D2D2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="544dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="itinerary"
+                android:textColor="@color/purple_700"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Place"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Map"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="396dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="482dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="306dp"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="@color/purple_500"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:id="@+id/s7"
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="18dp"
+                        android:text="10"
+                        android:textColor="@color/white"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dec"
+                        android:textColor="@color/white"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="261dp"
+                    android:background="@drawable/shape"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="18dp"
+                        android:text="11"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dec"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="218dp"
+                    android:background="@drawable/shape"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="18dp"
+                        android:text="12"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dec"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="177dp"
+                    android:background="@drawable/shape"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="18dp"
+                        android:text="13"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dec"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="134dp"
+                    android:background="@drawable/shape"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="18dp"
+                        android:text="14"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dec"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="90dp"
+                    android:background="@drawable/shape"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="18dp"
+                        android:text="15"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dec"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="46dp"
+                    android:background="@drawable/shape"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="18dp"
+                        android:text="16"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dec"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/shape"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="18dp"
+                        android:text="17"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dec"
+                        android:textColor="@color/black"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="295dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="432dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/imgeViaw7"
+                android:layout_width="37dp"
+                android:layout_height="27dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="237dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/ic_baseline_airplanemode_active_24" />
+
+            <TextView
+                android:id="@+id/txtView1630"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="68dp"
+                android:layout_marginEnd="96dp"
+                android:layout_marginBottom="21dp"
+                android:text="Arrive in Japan Airport T2"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVieaw173"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="210dp"
+                android:layout_marginBottom="6dp"
+                android:text="8:10"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="295dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="382dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/imgeView7"
+                android:layout_width="37dp"
+                android:layout_height="27dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="237dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/building" />
+
+            <TextView
+                android:id="@+id/txtView163"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="68dp"
+                android:layout_marginEnd="96dp"
+                android:layout_marginBottom="21dp"
+                android:text="Hotel Check in, Hilton Tokyo"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtView173"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="205dp"
+                android:layout_marginBottom="7dp"
+                android:text="22:00"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="295dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="327dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/imgeViw7"
+                android:layout_width="37dp"
+                android:layout_height="27dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="237dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/material_on_primary_emphasis_high_type"
+                android:src="@drawable/mountain" />
+
+            <TextView
+                android:id="@+id/txtVw163"
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="68dp"
+                android:layout_marginEnd="144dp"
+                android:layout_marginBottom="21dp"
+                android:text="Meiji-jingu Shrine"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtV173"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="205dp"
+                android:layout_marginBottom="7dp"
+                android:text="14:00"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="295dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="270dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/imgeVew7"
+                android:layout_width="37dp"
+                android:layout_height="27dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="237dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/bag" />
+
+            <TextView
+                android:id="@+id/txtV63"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="68dp"
+                android:layout_marginEnd="90dp"
+                android:layout_marginBottom="21dp"
+                android:text="Takeshita-dori Pop Culture Alley"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="205dp"
+                android:layout_marginBottom="7dp"
+                android:text="14:00"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="295dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="216dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/imgeVw7"
+                android:layout_width="37dp"
+                android:layout_height="27dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="237dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/mountain" />
+
+            <TextView
+                android:id="@+id/txtView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="68dp"
+                android:layout_marginEnd="157dp"
+                android:layout_marginBottom="21dp"
+                android:text="Omotesando Street"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtViw73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="205dp"
+                android:layout_marginBottom="7dp"
+                android:text="16:00"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="295dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="158dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/imgeVeew7"
+                android:layout_width="37dp"
+                android:layout_height="27dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="237dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/download" />
+
+            <TextView
+                android:id="@+id/txtView103"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="68dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="21dp"
+                android:text="Dinner at The Great - Burger"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtView143"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="205dp"
+                android:layout_marginBottom="7dp"
+                android:text="18:00"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="295dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="102dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/imgeView6"
+                android:layout_width="37dp"
+                android:layout_height="27dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="237dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/bag" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="68dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginBottom="21dp"
+                android:text="Ura - Harajuku area"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="205dp"
+                android:layout_marginBottom="7dp"
+                android:text="20:00"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="295dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="46dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="238dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@android:color/darker_gray"
+                android:src="@drawable/mountain" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="68dp"
+                android:layout_marginEnd="197dp"
+                android:layout_marginBottom="21dp"
+                android:text="Shibuya"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="205dp"
+                android:layout_marginBottom="7dp"
+                android:text="22:00"
+                android:textColor="@color/black"
+                android:textSize="8dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>
